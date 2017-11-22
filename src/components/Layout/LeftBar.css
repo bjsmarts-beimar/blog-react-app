@@ -1,0 +1,38 @@
+.logo {
+    height: 140px; 
+    width: 200px;
+    margin-Top: 40px;
+    margin-Bottom: 40px;
+}
+
+.button-collapse-bg {
+  background-color: #ff0000;
+  color: white;
+  padding-top: 10px;
+  display: none !important; 
+}
+
+.leftbar-Color {
+  background-color: #fafafa;
+}
+
+header, main, footer {
+    padding-left: 300px;
+}
+
+.side-nav.fixed {
+  margin-top: 80px !important;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+
+  .button-collapse-bg {
+    background-color: #ff0000;
+    color: white;
+    padding-top: 10px;
+    display: block !important; 
+  }
+}

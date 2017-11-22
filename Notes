@@ -1,0 +1,28 @@
+npm install jquery --save
+npm install react-materialize --save
+npm install materialize-css --save
+npm install react-responsive-modal --save
+npm install jwt-decode --save
+npm install react-router-dom --save
+npm install lodash --save
+
+<!-- Import Google Icon Font & materialize.css -->
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+Deploy Application to SURGE.SH
+==============================
+npm run build
+surge
+path: C:\Univision\blog-bj-site\build\
+domain: beimar-blog.surge.sh
+
+go to beimar-blog.surge.sh
+
+Redeploy Changes
+================
+npm run build
+surge --domain beimar-blog.surge.sh
